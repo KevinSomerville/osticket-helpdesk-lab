@@ -83,3 +83,11 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
    - Someone noticed they were logged out of their account in a location they never visited then a cryptic email was sent from their account without them knowing
 
 # Lesson learned
+
+This project didn't go perfectly, and honestly that ended up being the most useful part.
+
+I ran into a syntax error in my Apache virtual host file that turned out to be a simple typo (VirtualHost misspelled as Virtula). It taught me to actually read apache2ctl configtest output line by line instead of assuming the config was fine.
+
+I also hit a "client denied by server configuration" error when trying to load the site, which led me to learn that Apache's default config denies access to directories unless explicitly granted. I had to add a Directory block for /var/www/ in apache2.conf to fix it.
+
+Overall, this project taught me that most of the "real" troubleshooting in IT isn't following a perfect set of steps; it's reading error logs, narrowing down where the actual failure is, and fixing one piece at a time. That's the same process I'd use on an actual help desk ticket.
