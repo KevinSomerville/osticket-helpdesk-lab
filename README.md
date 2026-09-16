@@ -45,6 +45,28 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
   * Log into the staff panel and configure osTicket to your liking
 
 # Configuration
+ *Low/P4 team member 
+   - Password Reset
+   - Got locked out of account now they need access back
+  
+  *Medium/P3 team member 
+   - Permission Request
+   - Would like to remove permissions for team member xxx 
+  
+ *Medium/P3 team member 
+   - Minor Software Bugs
+   - The dashboard element is not updating in real-time
+  
+  
+ *High/P2 team member
+   - Hardware Issue
+   - A high-volume printer breaks down completely in a busy office area
+  
+ *Critical/P1 team member
+   - Security Incident
+   - Someone noticed they were logged out of their account in a location they never visited then a cryptic email was sent from their account without them knowing
+
+
 
 # Sample Tickets
 
