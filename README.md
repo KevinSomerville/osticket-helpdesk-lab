@@ -36,7 +36,7 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
   * Enable the site with the required modules, then restart Apache: <sudo a2ensite osticket.conf> <sudo a2enmod rewrite>
   <sudo systemctl restart apache2>
 
-  * Find the OS IP address with <ip a> then enter the following protocol into browser: http://<OS IP address>/
+  * Find the OS IP address with <ip a> then enter the following protocol into browser: http://<OS Your IP address>/
 
   * Allow pre-installation to run, then enter credentials for the admin account and use previous database credentials for the database section
 
