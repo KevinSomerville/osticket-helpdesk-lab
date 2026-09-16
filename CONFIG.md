@@ -4,24 +4,26 @@ This document outlines the configuration applied to this osTicket deployment.
 
 ## Environment
 - **OS:** Ubuntu Server 24.04.4
-- **Web Server:** Apache2 [version from `apache2 -v`]
+- **Web Server:** Apache2 [2.4.58]
 - **Database:** MySQL 8.0.46
-- **Language:** PHP [version from `php -v`]
-- **Ticketing Platform:** osTicket [version]
+- **Language:** PHP [8.3.6 cli]
+- **Ticketing Platform:** osTicket [v1.18.4]
 - **Hypervisor:** Oracle VirtualBox 7.2.16 (NAT networking with port forwarding)
 
 ## Departments
 - IT Support
 - Facilities
-(list whichever you actually created)
 
 ## Help Topics
 - Password Reset
-- Permission Request
+- Change Request
 - Software Bug
-- Hardware Issue
+- Software Issue
 - Security Incident
-(match to whatever you set up in Admin Panel > Manage > Help Topics)
+- Service Request
+- Software Install
+- VPN/Network Issue
+
 
 ## SLA Plans
 **Standard Support**
@@ -42,4 +44,4 @@ This document outlines the configuration applied to this osTicket deployment.
 - 1 admin account configured for staff panel access (`/scp/login.php`)
 
 ## Business Hours
-(if you configured this under Admin Panel > Manage > Business Hours, list the hours here, e.g. Mon-Fri 8am-5pm)
+- Mon-Fri 8 am-5 pm
