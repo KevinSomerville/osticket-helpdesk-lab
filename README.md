@@ -48,6 +48,4 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
 
 #Sample Tickets
 
-#Screenshot
-
 #Lesson learned
