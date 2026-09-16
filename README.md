@@ -45,6 +45,8 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
   * Log into the staff panel and configure osTicket to your liking
 
 # Configuration
+ 
+# Sample Tickets
  Low/P4 team member 
    - Password Reset
    - Got locked out of account now they need access back
@@ -65,9 +67,5 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
  Critical/P1 team member
    - Security Incident
    - Someone noticed they were logged out of their account in a location they never visited then a cryptic email was sent from their account without them knowing
-
-
-
-# Sample Tickets
 
 # Lesson learned
