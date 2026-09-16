@@ -45,11 +45,25 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
   * Log into the staff panel and configure osTicket to your liking
 
 # Configuration
+ **Departments:** IT Support, Facilities
+ 
+ **Teams:** Level I Support, Level II Support, Level III Support
+ 
+**Help Topics:** Software Issue, Change Requests, Hardware Issue, Password Reset, Security Incidents, Service Requests - Onboarding, Software Install, VPN/Network Issue
+
+**SLA Plan:** Standard Support
+- Critcal/P1: 1hr response, 4hr resolution
+- High/P2: 4hr response, 24hr resolution
+- Medium/P3: 24hr response, 72hr resolution
+- Low/P4: 48hr response, 1 week resolution
+- Backup & Recovery: 24hr resolution
+
+  **Priority Levels:** Low (P4), Medium (P3), High (P2), Critical (P1)
  
 # Sample Tickets
  Low/P4 team member 
    - Password Reset
-   - Got locked out of account now they need access back
+   - Got locked out of account; now they need access back
   
  Medium/P3 team member 
    - Permission Request
