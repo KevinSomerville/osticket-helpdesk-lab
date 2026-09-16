@@ -1,10 +1,10 @@
 # osticket-helpdesk-lab
 This is an Ubuntu-based virtualization lab showcasing the importance of a Tier 1 help desk workflow through osTicket.
 
-#Overview
+# Overview
 I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 web server, MySQL, PHP, and osTicket. I used Oracle VirtualBox (Version 7.2.16) as the hypervisor, configured with NAT networking and port forwarding to enable host-to-VM connectivity. Through osTicket, I demonstrated the ticket workflow required to excel as a Tier 1 Help Desk/IT Operations Specialist, processing and resolving five tickets across all priority levels: one Low/P4, two Medium/P3, one High/P2, and one Critical/P1.
 
-#Stack
+# Stack
 - Ubuntu Server(24.04.4)
 - Apache web server(2.4.58)
 - MySQL (8.0.46.0)
@@ -44,8 +44,8 @@ I built an Ubuntu-based help desk ticketing system using Ubuntu Server, Apache2 
 
   * Log into staff panel and configure osTicket to liking
 
-#Configuration
+# Configuration
 
-#Sample Tickets
+# Sample Tickets
 
-#Lesson learned
+# Lesson learned
